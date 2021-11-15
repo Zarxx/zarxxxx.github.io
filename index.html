@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+ <title>Assignment 1 Adrian Jasik 20094388</title>
+ <link rel="stylesheet" type="text/css" href="quiz.css"> 
+ <script type="text/javascript" src="quiz.js"></script>
+</head>
+<body>
+
+    
+    <br>
+    <h1>Welcome to my <span>QUIZ</h1></span>
+    <p>This is a short multiple choice question quiz created using HTML & Javascript. You will get rewarded with<br>
+    crowns based on the score you get. Choose the answer you think is correct and click the submit button to get<br>
+your score! You also get an extra maths question after the submit button & your result! </p>
+    <h2>Complete this short quiz and try to achieve a perfect score!</h2>
+
+<form name="quiz" id="quiz">
+
+
+    <button id="button">Choose different username.</button>
+
+
+<div class="right">
+  <button type="button" id="button" onclick="document.getElementById('display').innerHTML = Date()">Date and Time</button>
+<p id="display"></p>
+</div>
+
+
+<!--
+
+<div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+       <h2 id="question">Question Text</h2>
+       <ul>
+           <li>
+               <input type="radio" name="answer" id="a" class="answer">
+               <label for="a" id="a_text">Answer</label>
+           </li>
+
+           <li>
+            <input type="radio" name="answer" id="b" class="answer">
+            <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li>
+            <input type="radio" name="answer" id="c" class="answer">
+            <label for="c" id="c_text">Answer</label>
+        </li>
+
+        <li>
+            <input type="radio" name="answer" id="d" class="answer">
+            <label for="d" id="d_text">Answer</label>
+        </li>
+
+        <li>
+            <input type="radio" name="answer" id="e" class="answer">
+            <label for="e" id="e_text">Answer</label>
+        </li>
+
+   
+       </ul>
+
+</div>
+
+<button id="submit">Submit</button>
+
+</div>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <br>
+<div>
+    <h2>Question 1</h2>
+    <p>Who was the first person to step on the moon?</p>
+    <p><input type="radio" name="question1" value="1. Buzz Aldrin">1. Buzz Aldrin</p>
+    <p><input type="radio" name="question1" value="2. Neil Armstrong">2. Neil Armstrong</p>
+    <p><input type="radio" name="question1" value="3. Michael Collins">3. Michael Collins</p>
+    <p><input type="radio" name="question1" value="4. Alan Bean">4. Alan Bean</p>
+</div>
+
+
+
+
+
+
+<br>
+<div>
+    <h2>Question 2</h2>
+    <p>Whats the national flower of Japan?</p>
+    <p><input type="radio" name="question2" value="1. Daisy">1. Daisy</p>
+    <p><input type="radio" name="question2" value="2. Rose">2. Rose</p>
+    <p><input type="radio" name="question2" value="3. Cherry Blossom">3. Cherry Blossom</p>
+    <p><input type="radio" name="question2" value="4. Sunflower">4. Sunflower</p>
+</div>
+<br>
+<div>
+    <h2>Question 3</h2>
+    <p>What country has the most island in the world?</p>
+    <p><input type="radio" name="question3" value="1. Sweden">1. Sweden</p>
+    <p><input type="radio" name="question3" value="2. Ireland">2. Ireland</p>
+    <p><input type="radio" name="question3" value="3. Japan">3. Japan</p>
+    <p><input type="radio" name="question3" value="4. Iceland">4. Iceland</p>
+</div>
+<br>
+<div>
+    <h2>Question 4</h2>
+    <p>How many days does it take for the sun to orbit earth?</p>
+    <p><input type="radio" name="question4" value="1. 270">1. 270</p>
+    <p><input type="radio" name="question4" value="2. 365">2. 365</p>
+    <p><input type="radio" name="question4" value="3. 420">3. 420</p>
+    <p><input type="radio" name="question4" value="4. 69">4. 69</p>
+</div>
+<br>
+<div>
+    <h2>Question 5</h2>
+    <p>How many stripes are there in the US flag?</p>
+    <p><input type="radio" name="question5" value="1. 12">1. 12</p>
+    <p><input type="radio" name="question5" value="2. 52">2. 52</p>
+    <p><input type="radio" name="question5" value="3. 14">3. 14</p>
+    <p><input type="radio" name="question5" value="4. 13">4. 13</p>
+</div>
+<br>
+<br>
+<input type="button" name="" value="Submit" id="button" onclick="check()">
+
+</form>
+
+
+<p id="result"></p>
+
+<button id="button" onclick="extraMath()">Extra Math Question</button>
+
+<br>
+<br>
+
+
+</body>
+</html>
